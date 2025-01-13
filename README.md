@@ -1,46 +1,40 @@
-Calculadora Interativa em Python
-Este repositório contém um script Python para uma calculadora interativa que permite ao usuário realizar operações matemáticas básicas.
+# Calculadora Interativa em Python
 
-Descrição
-O script permite que o usuário:
+Este projeto é uma calculadora simples em Python que permite realizar operações básicas de adição, subtração, multiplicação e divisão. O programa continua pedindo entradas de números e operações até que o usuário decida sair.
 
-Insira dois números.
+## Funcionalidades
 
-Escolha uma operação matemática para realizar (adição, subtração, multiplicação ou divisão).
+- **Entrada de números**: O usuário insere dois números.
+- **Escolha da operação**: O usuário escolhe uma operação matemática entre os números inseridos. As operações permitidas são:
+  - Adição (`+`)
+  - Subtração (`-`)
+  - Multiplicação (`*`)
+  - Divisão (`/`), com verificação para evitar divisão por zero.
+- **Validação de entrada**: O programa garante que o operador inserido seja válido e que o usuário não insira mais de um operador por vez.
+- **Opção de continuar ou sair**: Após cada operação, o usuário pode optar por continuar ou sair do programa.
 
-Veja o resultado da operação.
+## Como executar
 
-Continue fazendo cálculos ou saia do programa.
+1. **Requisitos**:
+   - Python 3.x instalado no seu sistema.
 
-Funcionalidades
-Adição: Realiza a soma de dois números.
+2. **Passos para rodar**:
+   1. Baixe ou clone este repositório.
+   2. Abra o terminal/linha de comando.
+   3. Navegue até a pasta onde o arquivo Python está localizado.
+   4. Execute o arquivo:
+      ```bash
+      python calculadora.py
+      ```
+   5. O programa solicitará que você insira dois números e a operação desejada.
 
-Subtração: Realiza a subtração de dois números.
+## Exemplo de Execução
 
-Multiplicação: Realiza a multiplicação de dois números.
-
-Divisão: Realiza a divisão de dois números, com tratamento para divisão por zero.
-
-Como usar
-Clone este repositório para sua máquina local.
-
-Execute o script Python.
-
-bash
-python calculadora.py
-Siga as instruções no terminal para inserir números e selecionar operações.
-
-Exemplo de uso
-plaintext
+```bash
 INFORME UM NUMERO:  10
 INFORME OUTRO NUMERO:  5
-INFORME A OPERAÇÃO QUE VOCÊ DESEJA REALIZAR [ + - * / ]: +
-10 + 5 = 15.0
+INFORME A OPERAÇÃO QUE VOCÊ DESEJA REALIZAR [ + - * / ]:  +
+10.0 + 5.0 =  15.0
 
-[S] SAIRB
-[N] PARA CONTINUAR: n
-Estrutura do Código
-O código utiliza um loop while True para manter a interação contínua até que o usuário decida sair. Ele valida as entradas e realiza as operações matemáticas com base na escolha do usuário.
-
-Requisitos
-Python 3.x
+[S] SAIR
+[N] PARA CONTINUAR 
